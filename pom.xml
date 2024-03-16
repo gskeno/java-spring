@@ -11,6 +11,7 @@
     <modules>
         <module>annotation-aop</module>
         <module>circular-references</module>
+        <module>beans-management</module>
     </modules>
 
     <properties>

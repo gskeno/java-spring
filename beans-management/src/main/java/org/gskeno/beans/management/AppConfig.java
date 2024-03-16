@@ -1,9 +1,9 @@
-package org.gskeno.circular.references;
+package org.gskeno.beans.management;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("org.gskeno.circular.references")
+@ComponentScan("org.gskeno.beans.management")
 public class AppConfig {
 }

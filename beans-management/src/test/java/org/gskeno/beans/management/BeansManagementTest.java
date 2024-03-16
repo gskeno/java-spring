@@ -1,15 +1,13 @@
-package org.gskeno.circular.references;
+package org.gskeno.beans.management;
 
-import org.gskeno.circular.references.case1.A;
-import org.gskeno.circular.references.case1.AppConfig;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class CircularReferencesTest {
+public class BeansManagementTest {
     @Test
     public void test(){
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-        A bean = context.getBean(A.class);
+        C bean = context.getBean(C.class);
         System.out.println(bean);
     }
 }
