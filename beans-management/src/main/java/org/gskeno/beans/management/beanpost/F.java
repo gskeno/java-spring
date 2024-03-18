@@ -1,8 +1,7 @@
-package org.gskeno.beans.management;
-
+package org.gskeno.beans.management.beanpost;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class D {
+public class F {
 }
