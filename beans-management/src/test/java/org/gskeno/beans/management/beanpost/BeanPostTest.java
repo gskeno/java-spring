@@ -1,13 +1,13 @@
-package org.gskeno.beans.management;
+package org.gskeno.beans.management.beanpost;
 
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-public class BeansManagementTest {
+public class BeanPostTest {
     @Test
     public void test(){
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-        C bean = context.getBean(C.class);
-        System.out.println(bean);
+//        E bean = context.getBean(E.class);
+//        System.out.println(bean);
     }
 }
